@@ -1,0 +1,93 @@
+* {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 71px 62px 0px 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+label {
+    color: rgb(74, 74, 74);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 565px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+form input {
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #80808047;
+    padding: 15px 0 15px 15px;
+    margin: 10px 0 20px 0;
+}
+
+input {
+    border: none;
+    box-shadow: none;
+    outline: none;
+    color: grey;
+}
+
+input[type='text']:focus,
+input[type='password']:focus {
+
+    box-shadow: 0 0 0 3px rgba(140, 201, 255, 0.489);
+    border: 1px solid rgba(105, 158, 237, 0.784);
+}
+
+.buttonForm {
+    width: 90px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid green;
+    color: green;
+    background-color: white;
+}
+
+.add {
+    display: block;
+}
+
+.edit {
+    display: none;
+}
+
+.buttonForm:hover {
+    background-color: #31a031;
+    color: white;
+}
+
+.buttonForm:focus {
+    box-shadow: 0 0 0 3px #27d22779;
+    ;
+    border: 1px solid green;
+}
+
+.table,
+.table-block {
+    margin: 16px 30px 0 23px;
+    width: 554px;
+}
+
+thead {
+    margin: 25px 20px 0 40px;
+    border-top: 1px solid #80808047;
+    font-weight: bold;
+    padding: 10px 0 13px 20px;
+
+}
+
+.tr td{
+    padding: 14px;
+    font-size:16px;
+}
